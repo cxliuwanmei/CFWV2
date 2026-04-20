@@ -1,0 +1,146 @@
+.page {
+  min-height: 100vh;
+  padding: 56px 24px 80px;
+  background:
+    radial-gradient(circle at top, rgba(255, 214, 153, 0.35), transparent 35%),
+    linear-gradient(180deg, #fffaf3 0%, #f5f7fb 100%);
+  color: #1f2937;
+}
+
+.container {
+  width: min(480px, 100%);
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.eyebrow {
+  margin: 0 0 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #b45309;
+}
+
+.title {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1;
+  letter-spacing: -0.04em;
+}
+
+.subtitle {
+  margin: 18px 0 0;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #526072;
+}
+
+.formCard {
+  padding: 32px;
+  border: 1px solid rgba(148, 163, 184, 0.18);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.08);
+}
+
+.form {
+  display: grid;
+  gap: 24px;
+}
+
+.field {
+  display: grid;
+  gap: 8px;
+}
+
+.field label {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #9a3412;
+}
+
+.field input {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  border-radius: 18px;
+  background: #fff;
+  font: inherit;
+  font-size: 1rem;
+  color: #111827;
+  transition: all 0.2s ease;
+}
+
+.field input:focus {
+  outline: none;
+  border-color: #ea580c;
+  box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.1);
+}
+
+.field input::placeholder {
+  color: #9ca3af;
+}
+
+.error {
+  padding: 12px 16px;
+  border-radius: 12px;
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.submitButton {
+  height: 48px;
+  border: 0;
+  border-radius: 18px;
+  background: #ea580c;
+  color: #fff7ed;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.submitButton:hover:not(:disabled) {
+  background: #c2410c;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(234, 88, 12, 0.3);
+}
+
+.submitButton:disabled {
+  cursor: wait;
+  opacity: 0.7;
+}
+
+.footer {
+  margin-top: 32px;
+  text-align: center;
+  font-size: 0.92rem;
+  color: #6b7280;
+}
+
+.backLink {
+  color: #b45309;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s ease;
+}
+
+.backLink:hover {
+  color: #92400e;
+  text-decoration: underline;
+}
+
+.loading {
+  text-align: center;
+  padding: 48px 0;
+  font-size: 1.1rem;
+  color: #6b7280;
+}

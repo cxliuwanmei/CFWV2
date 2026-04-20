@@ -1,0 +1,29 @@
+[
+  {
+    "id": "toy-car",
+    "name": "Toy Car",
+    "price": 10,
+    "desc": "A small toy car for fun indoor play.",
+    "category": "Kids",
+    "image": "/toy-car.svg",
+    "imageAlt": "Blue toy car illustration"
+  },
+  {
+    "id": "book",
+    "name": "Book",
+    "price": 5,
+    "desc": "A short story book for relaxed reading time.",
+    "category": "Books",
+    "image": "/book.svg",
+    "imageAlt": "Open orange book illustration"
+  },
+  {
+    "id": "apple-juice",
+    "name": "Apple Juice",
+    "price": 3,
+    "desc": "Fresh apple juice with a crisp and sweet taste.",
+    "category": "Drinks",
+    "image": "/apple-juice.svg",
+    "imageAlt": "Bottle of apple juice illustration"
+  }
+]

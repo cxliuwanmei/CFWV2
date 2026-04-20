@@ -1,0 +1,14 @@
+<svg width="640" height="480" viewBox="0 0 640 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="640" height="480" rx="36" fill="#FFF7ED"/>
+  <circle cx="188" cy="344" r="44" fill="#111827"/>
+  <circle cx="188" cy="344" r="18" fill="#E5E7EB"/>
+  <circle cx="444" cy="344" r="44" fill="#111827"/>
+  <circle cx="444" cy="344" r="18" fill="#E5E7EB"/>
+  <path d="M136 306C136 275.072 161.072 250 192 250H418C444.51 250 467.272 268.671 475.241 293.955L488 334H136V306Z" fill="#2563EB"/>
+  <path d="M252 180C252 166.745 262.745 156 276 156H351.203C360.263 156 368.6 160.936 372.962 168.872L411 238H252V180Z" fill="#60A5FA"/>
+  <rect x="274" y="178" width="70" height="44" rx="10" fill="#DBEAFE"/>
+  <rect x="352" y="178" width="38" height="44" rx="10" fill="#DBEAFE"/>
+  <rect x="155" y="276" width="66" height="14" rx="7" fill="#93C5FD"/>
+  <path d="M463 287H501C512.046 287 521 295.954 521 307V318H480L463 287Z" fill="#F59E0B"/>
+  <text x="48" y="74" fill="#9A3412" font-family="Arial, sans-serif" font-size="30" font-weight="700">Toy Car</text>
+</svg>
